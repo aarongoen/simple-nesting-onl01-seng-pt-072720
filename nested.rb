@@ -57,6 +57,7 @@ def dennis_ritchies_language
         }
      }
  programmer_hash[:dennis_ritchie][:languages].to_s
+ programmer_hash
 end
 
 def adding_matz
@@ -85,7 +86,8 @@ def adding_matz
  programmer_hash[:yukihiro_matsumoto] = "{}"
  programmer_hash[:yukihiro_matsumoto][:known_for] = "Ruby"
  programmer_hash[:yukihiro_matsumoto][:languages] = ["LISP", "C"]
-  
+
+programmer_hash
 end
 
 def changing_alan
@@ -108,7 +110,8 @@ def changing_alan
      alans_new_info = "GUI"
 
 programmer_hash[:alan_kay][:known_for] = alans_new_info   
-     
+
+programmer_hash
 end
 
 def adding_to_dennis
@@ -128,4 +131,6 @@ def adding_to_dennis
         }
      }
 programmer_hash[:dennis_ritchie][:languages] = ["C", "Assembly"]
+
+programmer_hash
 end
